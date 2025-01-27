@@ -1,0 +1,1049 @@
+N° Compte,Description,Sens
+102100,Fonds de dotation initiale,C
+102300,Fonds dotation complémentaire,C
+111100,"Res, fonds social vieillesse",C
+111200,"Res, techniques ( AT/MP )",C
+111500,Réserves de trésorerie,C
+111600,Réserves de trésorerie,C
+111701,Réserves de sécurité AT/MP,C
+111702,Réserves de sécurité PF/AM,C
+118100,Autres Réserves de vieillesse Invalidité Décès,C
+118400,Autres Réserves de trésorerie,C
+118701,Autres Réserves Techniques AT/MP,C
+118702,Autres Réserves de sécurité PF/AM,C
+121000,Repport a nouveau solde crediteur,C
+121300,Report a nouveau affecté à la reserve technique(branche retraite),C
+121900,Repport a nouveau solde debiteur,C
+122800,Resultat net de l'exercice,C
+171000,Emprunt BACI,C
+171020,Emprunt ECOBANK,C
+171052,EMPRUNT SIB 2019,C
+171053,EMPRUNT SGCI 2019,C
+171055,EMPRUNT CORIS,C
+175500,Cautionnement comptable reçu,C
+175800,Autres depots et cautionnements reçus,C
+178800,INTERÊT COURUS NON ECHU/EMPRUNTS,C
+191100,Provis litiges/personnel,C
+191101,"Provis litiges/parts soc,",C
+191400,Provis amendes-penalites,C
+191500,Provis retraite/personnel,C
+191550,Provis hausse pension retraite,C
+191800,Provision autres risques,C
+191810,Prov risque réclam RET,C
+191820,Prov risque réclam ATMP,C
+191830,Prov risque réclam PF,C
+191840,Prov risque réclam REC,C
+191850,Prov risque réclam ASS MATERNITE,C
+193100,Provision pour indemnités et obligations similaires de départ à la retraite part IFC,C
+193200,Provision pour indemnités et obligations similaires de départ à la retraite part IFS,C
+197200,Provisions pour grosses reparations,C
+202000,Frais d'acquisition,D
+203000,Frais d'étude et de plans const.,D
+204000,Frais de recherche et de devellopement,D
+205000,Logiciels,D
+211100,Terrains non batîs,D
+212000,Terrains  a titre onereux,D
+215000,Terrains batis a titre onereux,D
+215100,Terrains batis,D
+220010,Immeubles administratifs,D
+220020,Immeubles des oeuvres,D
+220100,Immeubles de rapport,D
+220200,Immeubles de fonction,D
+220400,Logements sociaux,D
+220500,Agencement et amenagement des terrains,D
+220600,"Instal amenag ,construction",D
+220640,Agencement et amenagement et installation de l'Agence Comptable,D
+220700,Agence amenage technique,D
+220900,"Installation generale, agencement divers",D
+221000,Materiel de bureau,D
+221100,Mobilier de bureau,D
+221200,Mobilier de bureau de l'Agence Comptable,D
+221300,Materiel de bureau de l'Agence Comptable,D
+222000,Materiel informatique,D
+223000,Materiel de transport,D
+224000,Mat- mob technique des centres sociaux,D
+224010,Materiel technique non médical,D
+224220,Materiel technique  medical,D
+229000,Autres materiel et mobilier,D
+229100,Materiel de Froid,D
+229200,Materiel de Protection,D
+229300,Materiel et mobilier de l'infirmerie du personnel,D
+229400,Autres Matériels et Mobiliers,D
+230000,Immobilisations incorporelles en cours,D
+231000,Immobilisations Corporelles en Cours,D
+232000,Constructions en cours,D
+232001,Operation 239 logements CNPS Bouake,D
+232012,Immeuble Les Filao,D
+232029,Immo en-cours SINGER,D
+232030,Immo en-cours Centre la DJIBI,D
+233100,Mat et mob Bur en cours,D
+233200,Mat et mob de Tech en cours,D
+233300,Mat de Transport en cours,D
+240000,Avances et acomptes sur autres commandes,D
+248000,Av et acptes commande d'immos,D
+250000,Prets a l'Etat,D
+255000,Prets vehicules aux Controleurs,D
+255100,Prets vehicules aux Agents,D
+255200,Prets vehicules aux Cadres,D
+256210,Prets SIPIM 1,D
+256300,Prets immobiliers aux agents,D
+256400,Avance/droit de départ retraite,D
+258020,Pret SICOMED,D
+258070,PRET CITRANS,D
+258080,PRET HCP_MOVENPICK,D
+258100,Pret Atlantique Télécom,D
+258200,Prêt MA-CNPS,D
+258900,Autres prets,D
+271100,Titres de participation,D
+271200,Obligations et bons immobilises,D
+272100,Prets  a l'Etat immobilises,D
+272800,Autres prets immobilises,D
+275000,Depots et cautionnement,D
+276100,Depots bancaires immos,D
+278100,Creances  diverses immobilisees,D
+278200,Interets courus sur titres immobilises,D
+278400,Interets courus sur prets immobilises,D
+278500,NSIA  ASSURANCE: Fonds d'Indemnité de Fin de Carrière,D
+278600,NSIA  ASSURANCE: Fonds d'Indemnité de Fin de Service,D
+280200,Amort-frais d'acquisition,C
+280300,Amort-Frais étude et de plans const.,C
+280400,Amort-Frais de recherche et develop,C
+280500,Amort-Logiciels,C
+282000,Amort-immeubles administratifs,C
+282001,Amort-immeubles administratifs,C
+282002,Amort-Immbes -oeuvres,C
+282005,Amort-immbles -oeuvres sanitaires,C
+282010,Amort-immeubles de rapport,C
+282020,Amort-logements de fonction,C
+282040,Amort-Immbes -oeuvres,C
+282060,"Amort gls, ag-constructions",C
+282070,"Amort des installations generales, agencement, aménagement technique",C
+282090,"Amort des installations generales, agencement divers",C
+282100,Amort materiel de bureau,C
+282110,Amort materiel de bureau,C
+282115,Amort materiel de bureau de l'Agence Comptable,C
+282120,Amort mobilier de bureau,C
+282200,Amort materiel informatique,C
+282300,Amort du materiel de transport,C
+282400,Amort mat-mob-centres sociaux,C
+282401,Amort Mat-mob Tech non médical,C
+282422,Amort du mat technique médical,C
+282900,Amort-autres mat et mobilier,C
+282910,Amort du materiel de froid,C
+282920,Amort du materiel de protection,C
+282930,Amort du materiel et mobilier de l'infirmerie du personnel,C
+282940,Amort-autres mat et mobilier,C
+291110,Provis depreciation des terrains nus acquis,C
+291120,Provis depreciation des terrains nus reçus,C
+291210,Provis depréciation des terrains aménagés acquis,C
+291220,Provis depréciation des terrains aménagés reçus,C
+291500,Provis dép terrains bâtis,C
+291510,Provis dép terrains bâtis,C
+292001,Provis/dépre Bat Administratifs,C
+292002,Provis/dépre Immbles Sociales,C
+292010,Provis/dépre  Immbles Locatif,C
+292070,Provis/dépre Bat Administratifs,C
+292100,Provis/dépre Matériel de Bur,C
+292110,Provis/dépre Mob de Bureau,C
+292200,Provis/dépre Mat Informatique,C
+292300,Provis/dépre Mat de Transport,C
+295010,Provis depreciation des prets à l'Etat,C
+295510,Provis depreciation des prets Véhicule agents,C
+295621,Provis depré du pret SIPIM,C
+295630,Provis dépréc prêts Immo person,C
+295660,Provis depré du pret SIPIM,C
+295800,Provis depré du pret SECI,C
+295802,Provis depré du pret SICOMED,C
+295810,Provis depré du pret SICOMED,C
+295860,Provis depré du pret SIPIM,C
+297100,Provis depré titres participation,C
+297110,Provis depré titres participati,C
+297120,Provis depré des obligations et,C
+297200,Provis depré des obligations et bons immobilisés,C
+297300,Provis depré des effets impayés,C
+300010,Stocks Fournitures medicales,D
+300020,Stocks Produits pharmaceutiques,D
+310100,Stocks Matieres Premieres,D
+322500,Stocks Four de bureau,D
+322600,Stocks Four ensemble electronique,D
+322800,Stocks Autres fournits consommables,D
+322810,Stocks Autres fournits consommables,D
+341300,Stock de projets immobiliers encours,D
+350000,STOCK DE PRODUITS FINIS,D
+355100,Stock de constructions,D
+390010,Provision pour depreciation des fournitures médicales,C
+390020,Provision pour depreciation des produits pharmaceutiques,C
+391100,Provision pour depreciation des matieres premieres,C
+392300,Provision pour depreciation des fournitures et matières diverses,C
+392500,Provision pour depreciation des fournitures de bureau,C
+392600,Provision pour depreciation des fournitures pour ensemble électronique,C
+392800,Provision pour depreciation des autres fournitures,C
+401100,AP- Fournis ordinaires de pestations,C
+401101,GL- Fournis marchs matieres 1er,C
+401110,Fournisseurs occasionels,C
+401200,Fournisseur d'immobilisations (projets),C
+401201,Fourniss d'investissement,C
+401300,"Fournis, pharma, labos",C
+401400,"Fournis, retenues de garantie",C
+401500,"Fournisseurs, oppositions",D
+401600,"Fournis, factures non parvenues",C
+401610,Fournisseur compte liaison AP-Gestock,C
+401710,"AP- Fournis, avances et acomptes",D
+401711,AP- Honoraire Av et Ac/ fact AP,D
+401712,retenue compte prorata,D
+401720,"Acomptes aux pharmacies, laboratoires,profession de santé et établissements de soins",D
+401800,Fournis trop perçus,D
+405100,Prestations familiales a payer,C
+405101,"Pret, Acpte PF à payer",C
+405105,"Employeurs, ecart sur reddition de fonds",C
+405110,Prestations d'AT/MP a payer,C
+405111,"AP Prest, Acompte ATMP à payer",C
+405112,"AP Prest, ATMP frais médicaux",C
+405120,Prestations de retraite a payer,C
+405121,"Pret, Acpte Retraite à payer",C
+405123,Remboursement cotisation exceptionnelle assuré à payer,C
+405130,Ayants droit prestations dues non payees,C
+405140,Prestations Frais médicaux à payer,C
+405160,Prestations IJ Assurance maternité  a payer,C
+405701,Acptes sur presta familiales,D
+405710,Acptes sur rentes ou IJ/AT,D
+405720,Acptes sur pension de retraite,D
+405730,Prélèvement MUTREPCI à reverser,C
+405740,Prélèvement MAR-BICI à reverser,C
+405750,Prélevement CMU,C
+405800,"Presta fam indues,a recuperer",D
+405810,"Presta d'AT/MP, a recuperer",D
+405820,"Prestations retraite indues, à recuperer",D
+411100,Tickets contributifs,D
+411110,Usagers des centres sociaux,D
+411120,Pharmacie,D
+411130,Centre Appareil. YOP,D
+411140,Acquéreur projets immobilier,D
+411200,Loca gerance directe,D
+411201,Loca droits enregistrement,D
+411202,Locatires gérance  AICI,D
+411203,Locatires gérance  CI-PM,D
+411204,Locatires gérance  SCI BUSINESS CENTER,D
+411205,Loca gerance dir exe antérieur,D
+411206,Locatires gérance  AICI exercie antérieur,D
+411207,Locatires gérance  CI-PM exercie antérieur,D
+411208,Locatires gérance  SCI BUSINESS CENTER  exercie antérieur,D
+411210,Pers  CNPS locataires,D
+411215,Pers  CNPS loca exe anté,D
+411220,Locataires gerance indirecte,D
+411230,Locataires (solde anterieur),D
+411250,"Loyer, creances contentieuses",D
+411300,Autres clients,D
+411400,Clients douteux et litigeux,D
+411410,Locataires douteux d'immobilisations gerance directe,D
+411420,Personnel de la CNPS locataires douteux,D
+411520,Depots garantie gerance directe,C
+411710,Locataire Acpte & Avce reçu,C
+411750,AVANCE RECU SUR VENTE DE LOGEMENT EVE(CIPI),C
+415105,"Cot, creances exe en cours",D
+415106,"Cot, cotisation exercice postérieur",D
+415176,"Cot, creances exigibles sur exe anterieur",D
+415181,"Cotisants, Debits à regulariser",C
+415340,"Cots, creances contentieuses",D
+415700,RSTI Dépots clients,D/C
+415710,"Cotisants, rachat de cotisations",D
+415720,"Cotisants, effet reçus à recouvrer",C
+415750,"Cotisants, enc à rembourser",C
+415800,"Cotisants, compte de reclassement contentieux",D
+420000,Acomptes au personnel,D
+420010,Avance au personnel,D
+420020,Prêt Social aux agents,D
+420210,Avance scolaire,D
+420306,GL- Pers.Trop perçu/mission,D
+420400,Personnel débiteur,D
+425000,Rémunerations dues au personnel,D
+425020,Dép.retraite&licenc.&démission,D
+425040,Rémuneration CDD et intérimaire,D
+425050,Droits de décès des agents,D
+425800,Pers. Retenue/impots/Gratif,D
+427000,Opposition delegations  salaire,D
+427210,personnel retenue loyer  CI-PM,D
+427300,Retenue banques,C
+427301,Retenue AXA-VIE,C
+427302,Retenue BENEFICIAL LIFE,C
+427304,Retenue Saham Assurance,C
+427400,MUTUELLES,C
+427401,A.I.D.E.S.S,C
+427404,Retenue synatra CNPS,C
+427405,Retenue SYLA CNPS,C
+427501,Retenue librairie de france,C
+427600,Retenue Alios,C
+427601,SAISIES (Hussiers),C
+427602,OPPOSITIONS/SALAIRE,C
+427604,B.H.C.I ( Prêt Prevoyance ),D/C
+427607,RETENUE UBA,C
+427701,retenue intelco,C
+427703,FANTASIA,C
+427708,Cotisation SYNA CNPS,C
+427709,Retenue Canal Horizon,C
+427710,Retenue US CNPS,C
+427711,Retenue TELECEL,C
+427714,Retenue ORANGE,C
+427715,retenue SILSTECHNOLOGIE,C
+427716,RETENUE ASCO-CNPS,C
+427800,AFC-CNPS,C
+427802,ARH-CNPS,C
+427950,Retenue assurance maladie du personnel,C
+427955,Retenue assurn maladie  personnel retraité,C
+428600,Charges a payer,C
+428601,Droit de départ à la Retraite,C
+428700,Produits a recevoir,D
+434000,Personnel CNPS Impots sur salaires,D/C
+434010,Impots sur IJ maternité,D/C
+434020,"Pension, Impôt-Retraite",D/C
+434030,Personnel FDFP/ TA et TFPC,D/C
+434200,Impots fonciers,D/C
+434320,"Etat, TVA récupérable/Achat",D/C
+434330,TVA fourn étrangers,D/C
+434410,Retenue à la source DGE,D/C
+434420,Retenues/fact. honoraires,D/C
+434502,"Etat, Patente transport",D/C
+434600,IRVM,D/C
+434601,IRC,D/C
+438600,"Etat, charges a payer",C
+450010,Coordination viellesse TOGO,D/C
+450020,Coordination viellesse SENEGAL,D/C
+450030,oordination viellesse BENIN,D/C
+450040,Coordination viellesse BURKINA FASSO,D/C
+450060,Convention Franco / Ivoirienne,D/C
+450080,Coordination allocat° familiale France,D/C
+460000,Cotisations CNPS,D/C
+461200,Frais de contentieux à recuperer,D
+461800,Prelèvement MUTREPCI à reverser,C
+461801,Prelèvement MAR-BICI à reverser,C
+461802,Prélèvement CMU à reverser,C
+461803,prelèvement  CMU Rente et Retraite à reverser à,C
+461804,CMU_CNPS Encaissements indus,C
+462000,Creances sur cession d'immos,D/C
+464000,Dettes -acquis valeurs immos,C
+465000,Creances sur cession de valeures mobilières,D
+467010,Prêts immobilisés /Agents (+) un an,D/C
+467020,Prêts immobilisés /Agents (-) un an,D/C
+467030,Prêts immobilisés /MACNPS,D/C
+46780,debiteurs effets reçus à recouvrer,D
+467800,Debiteurs divers,D
+467801,Cantonnement (ATD.Saisie arrêts),D
+467802,personnel sorti débiteur,D
+467803,debiteurs effets reçus à recouvrer,D/C
+467831,Formation CIFOCSS,D/C
+467840,Avances sur rentes,D/C
+467870,SGI IMPAXIS SECURITE,D/C
+467871,SGI l'Africaine de Gestion Intermédiaire,D/C
+467872,SGI CGF BOURSE,D/C
+467875,SGI MP ORAGROUP SECURITIES,D/C
+467881,SGI HDSON&CIE,D/C
+467882,SGI ATLANTIQUE FINANCE,D/C
+467883,SGI AFRICAINE DE BOURSE,D/C
+467884,SGI PHOENIX CAPITAL MANAGEMENT,D/C
+467885,SGI BICI BOURSE,D/C
+467886,SGI EDC INVESTMENT CORPORATION,D/C
+467887,SGI UBA GLOBAL INVESTOR SERVICES,D/C
+467889,SGI BNI FINANCE,D/C
+467890,SGI SOGEBOURSE,D/C
+467891,SGI CORIS BOURSE,D/C
+467892,SGI SIRIUS,D/C
+467893,PHOENIX CAPITAL,D/C
+467894,NSIA FINANCES,D/C
+467895,BSIC CAPITAL,D/C
+467896,BRIDGE SUCURITE,D/C
+467897,BOA SECURITE,D/C
+467898,SGI AFRICA- BOURSE,D/C
+467899,SGI MAC AFRICAN,D/C
+467900,A.I.S.S (bureau regional),D/C
+467901,Caisse du Bénin,D/C
+467902,Caisse du Burkina-fasso,D/C
+467903,Caisse du Mali,D/C
+467904,Caisse du Niger,D/C
+467905,Caisse du Sénégal,D/C
+467906,Caisse du Togo,D/C
+467910,AP- Sommes autres que rémun.,D/C
+467911,GL- Indem / Mission,D/C
+467912,GL indemité fin de carrière NSIA,D/C
+467913,AP- Compte d'attente à recouvrer,D/C
+467915,Frais dus au Notaire,D/C
+467916,GL- Prime de stage,D/C
+467917,GL- Bourse / CIFOCSS,D/C
+467918,avance sur loyers des élèves de CIFOCSS,D/C
+467919,Personnel Allocationsfamiliales à payer,D/C
+467920,AP- Autres crediteurs divers,D/C
+467921,AP- Indem.Administrateurs,D/C
+467922,Imdem administrateurs,D/C
+467923,AP- Prime de stage,D/C
+467925,frais Honoraires,D/C
+467926,Paiements Par compassation,D/C
+467927,GL- Créditeurs divers,D/C
+467929,Ministère de tutelle,D/C
+467931,Bénin-Presta à regulariser,D/C
+467932,Burkina-Presta à regulariser,D/C
+467933,Mali-Presta à regulariser,D/C
+467934,Niger-Presta à regulariser,D/C
+467935,Sénégal-Presta à regulariser,D/C
+467936,Togo-Presta à regulariser,D/C
+467940,Rembourssement Frais medicaux au personnel,D/C
+467950,Assurance mal du pers,D/C
+467955,Subvention Assurance Maladie Retraite,D/C
+468700,Produits a recevoir,D/C
+470800,Compte de lettrage sur encaissement AR,D/C
+472110,AP- Demande de fonds a regulariser,D/C
+472115,AP- Régul des demandes de fonds,D/C
+472875,Frais divers a regulariser,D/C
+474000,Cotisations a ventiler,D/C
+475050,Prestations a ventiler,C
+478000,Conpte de regul actif,D/C
+478010,Cpte de liaison Impots sur IJ/AM,D/C
+478020,Cpte de liaison impots sur Retraite,D/C
+478100,Cpte de liaison Abj-Plateau,D/C
+478101,Cpte de liaison Abj-Treichville,D/C
+478102,Cpte de liaison Abj-Adjamé,D/C
+478103,Cpte de liaison Abj-Yopougon,D/C
+478104,Cpte de liaison Abj-Abobo,D/C
+478105,Cpte de liaison Abj-Koumassi,D/C
+478106,Cpte de liaison Abj-Cocody,D/C
+478107,Cpte de liaison Abj-Prest ext,D/C
+478108,Compte de liaison Abj / Bingerville,D/C
+478200,Cpte de liaison Abj-Bonoua,D/C
+478300,Cpte de liaison Abj-Divo,D/C
+478400,Cpte de liaison Abj-DRCN Bké,D/C
+478401,Cpte de liaison Siege-Agence Bké,D/C
+478402,Cpte de liaison Siege-Agence Korhogo,D/C
+478403,Cpte de liaison Siege-Agence Yakro,D/C
+478500,Cpte de liaison Abj- DRO,D/C
+478501,Cpte de liaison Siege-Agence Daloa,D/C
+478502,Cpte de liaison Siege-Agence Gagnoa,D/C
+478503,Cpte de liaison Siege-Agence Guiglo,D/C
+478504,Cpte de liaison Siege-Agence Man,D/C
+478505,Cpte de liaison Siege-Agence Odienné,D/C
+478506,Cpte de liaison Siege-Agence San pedro,D/C
+478601,Cpte de liaison Siege-Agence Abengourou,D/C
+478602,Cpte de liaison Siege-Agence Agboville,D/C
+478603,Cpte de liaison Siege-Agence Bondoukou,D/C
+478604,Cpte de liaison Siege-Agence Adzope,D/C
+478605,Cpte de liaison Siege-Agence Daoukro,D/C
+478800,Cpte de liaison RN / RSTI,D/C
+478805,Cpte liaison paiements déplacés entre agence,D/C
+479010,FA charges immobilisées (Lettrage),D/C
+479020,FA Logiciels (Lettrage),D/C
+479030,FA Terrains (Lettrage),D/C
+479040,FA Constructions (Lettrage),D/C
+479050,FA Mat. et mob. de bureaux (Lettrage),D/C
+479060,FA Mat. et mob. techniques (Lettrage),D/C
+479070,FA Matériels de transport (Lettrage),D/C
+484000,Régul cotisations Administrat° Publiques,C
+486000,Charges constatees d'avance,D
+487000,Produits constates d'avance,C
+490170,Provisions pour dépréciation financière des comptes fournisseurs,C
+490570,Provisions acompte sur prestations,C
+490580,Provisions  sur prestations indues,C
+491000,Provis depre cptes locataires,C
+491500,Provis depre cptes cotisants,C
+492000,Provision pour depreciation financiere des comptes du personnel,C
+496100,Provision pour depreciation des creances à moins d'un an,C
+496780,Provision pour dépréciation financière débits divers,C
+500000,Emprunts a moins d'un an,C
+523110,Aquisition (OPCVM) Organisme Placement Collectif en Valeurs Mobilière,D
+528800,"Interets courus sur obligations, bons et valeurs assimilees",D
+540000,Effets a recevoir,D
+540100,Effets remis a l'encaissement,D
+547000,Effets impayes,C
+547100,Frais sur effets impayes,C
+552000,Cheques a encaisser,D
+552500,RSTI Chèque à l'encaissement,D
+553100,ORANGE MONEY PPI,D/C
+553102,MTN MONEY PPI,D/C
+553200,RSTI MTN MONEY,D/C
+553400,RSTI WAVE MONEY,D/C
+553500,RSTI COFINA_CAC,D/C
+553600,RSTI ORANGE MONEY,D/C
+557000,Cheques impayes,D
+557100,Frais sur cheques impayes,C
+560000,SGCI  compte courant Abidjan,D/C
+560010,SGCI Recette ADZOPE,D/C
+560020,SGCI  DAT Abidjan,D/C
+560030,SGCI Dépenses Adzope,D/C
+560040,SGCI Dépenses Bingerville,D/C
+560050,SGCI Récette Bingerville,D/C
+560090,SGCI compte courant Bouake,D/C
+560290,SGCI compte courant Abengourou,D/C
+560400,SGCI Recette PPI,D/C
+560500,SGCI Compte courant Abidjan,D/C
+560501,SGCI recette AGBOVILLE,D/C
+560502,SGCI dépense AGBOVILLE,D/C
+560506,SGCI sous comptes prêts,D/C
+561000,BICICI compte courant Abidjan,D/C
+561020,BICICI DAT Abidjan,D/C
+561500,BICICI Compte courant Abidjan,D/C
+561501,BICICI DAT 2017,D/C
+562101,NSIA Recette Daoukro,D/C
+562102,NSIA Dépenses Daoukro,D/C
+562320,NSIA compte courant chomage,D/C
+562330,NSIA Recette BONOUA,D/C
+562500,NSIA Compte courant Abidjan,D/C
+562501,NSIA Compte Titres,D/C
+562502,NSIA Projets Immobiliers,D/C
+562503,NSIA DAT Abidjan,D/C
+562504,NSIA Recette Easy Collect,D/C
+562505,NSIA Recette PPI,D/C
+562510,NSIA Recette Abobo,D/C
+562511,NSIA Depense Abobo,D/C
+562520,NSIA Recette Plateau,D/C
+562550,NSIA Depense Treichville,D/C
+562580,NSIA Recette Divo,D/C
+562581,NSIA Depense Divo,D/C
+562600,NSIA Recette Abengourou,D/C
+562602,NSIA Depense Abengourou,D/C
+562603,NSIA Depense Bondoukou,D/C
+562710,NSIA Recette Bouaké,D/C
+562711,NSIA Dépense Bouaké,D/C
+562720,NSIA Recette Yamoussokro,D/C
+562721,NSIA Depense Yamoussokro,D/C
+562801,NSIA Recette Daloa Siège,D/C
+562802,NSIA Depense Daloa Agence,D/C
+562810,NSIA Recette Gagnoa,D/C
+562811,NSIA Depense Gagnoa,D/C
+562900,NSIA Dépense APPEX,D/C
+563500,SIB Compte courant Abidjan,D/C
+563501,DAT SIB 2018,D/C
+563520,SIB Depense Adjamé,D/C
+563531,SIB Depense Koumassi,D/C
+563541,SIB Depense Plateau,D/C
+563550,SIB Recettes Cocody,D/C
+563551,SIB Dépenses Cocody,D/C
+563600,SIB Recette BOUAKE,D/C
+563620,SIB Recette PPI Siège,D/C
+563850,SIB Recette San-pédro,D/C
+563851,SIB Depense San-pédro,D/C
+564500,ORANGE MONEY PPI,D/C
+564520,MTN MONEY PPI,D/C
+564530,WAVE CI PPI,D/C
+564540,RSTI MTN MONEY,D/C
+564550,RSTI MOOV MONEY,D/C
+564560,RSTI WAVE MONEY,D/C
+564570,RSTI ORANGE MONEY,D/C
+564580,RSTI COFINA_CAC,D/C
+564610,DAT ORANGE BANK,D/C
+565000,BNI c.c Abidjan (Ancien CAA ),D/C
+565002,BNI GESTION PLACEMENT,D/C
+565050,AFRILAND FIRST BANK DAT 2014,D/C
+565201,BNI Depenses BONOUA,D/C
+565303,BNI Depenses Yopougon,D/C
+565400,BNI Recettes Koumassi,D/C
+565500,BNI Recette PPI,D/C
+566500,BNP PARIS Compte courant,D/C
+567070,ECOBANK C/C Abidjan ( 565960 ),D/C
+567074,ECOBANK COLLECT,D/C
+567075,ECOBANK  PRESTATIONS CIV,D/C
+567076,ECOBANK  RECETTE PPI,D/C
+567082,Ecobank Recette Treichville,D/C
+567086,Ecobank Prestation APPEX,D/C
+567087,Ecobank Domiciliation,D/C
+567175,B H C I DAT,D/C
+567181,BOA DAT Bank of Africa,D/C
+567185,BOA Recette PPI,D/C
+567186,BOA CC,D/C
+567187,BDA Recette PPI,D/C
+567240,BSIC RECETTE PPI,D/C
+567251,BSIC CC,D/C
+567252,BSIC-CI DAT 2015,D/C
+567255,DAT COFINA,D/C
+567300,BRIDGE BANK,D/C
+567301, DAT BRIDGE BANK 2016,D/C
+567302,BACI C/C Projet Immob,D/C
+567303,BRIDGE BANK Cpte de réserve crédit,D/C
+567310,BRIDGE BANK RECETTES ABOBO,D/C
+567315,BRIDGE BANK RECETTE PPI,D/C
+567316,BRIDGE BANK TITRES,D/C
+567318,BRIDGE BANQUE RECETTE PLATEAU,D/C
+567360,BRIDGE BANQUE Recettes Yopougon,D/C
+567400,DAT DIAMONDBANK,D/C
+567401,DIAMONDBANK C/C,D/C
+567405,UBA COMPTE COURANT,D/C
+567406,UBA RECETTE PPI,D/C
+567407,DAT Divine Finance Internationale (UBA),D/C
+567410,D.A.T UBA,D/C
+567420,UBA Recette ADJAME,D/C
+567421,UBA Recette Sanpedro,D/C
+567422,UBA Recette KOUMASSI,D/C
+567425,BAOBAB Compte courant,D/C
+567500,CITIBANK Compte courant Abidjan,D/C
+567506,CITIBANK Recettes ABOBO,D/C
+567521,BGFI BANK,D/C
+567522,DAT BGFI,D/C
+567524,DAT ORABANK,D/C
+567526,DAT BRM CI,D/C
+567527,BACI RECETTE ODIENNE,D/C
+567528,BACI DEPENSE ODIENNE,D/C
+567529,BACI RECETTE YOPOUGON,D/C
+567531,B.A.C.I  C/C (Banque Atlantique de Côte d'Ivoire),D/C
+567532,B.A.C.I  Recette ABENGOUROU,D/C
+567534,DAT B.A.C.I 2014  (Banque Atlantique de Côte d'Ivoire),D/C
+567536,BACI DEPENSES KORHOGO,D/C
+567537,BACI RECETTE KORHOGO,D/C
+567538,BACI DOMICILIATION PRET,D/C
+567539,BACI RECETTE PPI,D/C
+567542,BACI RECETTE BONDOUKOU,D/C
+567543,BACI DEPENSE BONDOUKOU,D/C
+567545,DAT MANSA BANK,D/C
+567552,Standart Chartered BANK C/C 0065760003,D/C
+567555,CORIS BANK DAT 2015,D/C
+567556,CORIS BANK C/C,D/C
+567557,ECOBANK RECETTE TI,D/C
+567561,UBS.SA-Genève,D/C
+567570,BHCI Compte Courant,D/C
+567571,DAT WITTI FINANCES,D/C
+567572,DAT BANQUE POPULAIRE CI,D/C
+567573,BHCI Recette PPI,D/C
+567580,Versus Bank C/C 2004,D/C
+567581,DAT Versus Bank 2004,D/C
+567585,Versus Bank Recette PPI,D/C
+567700,DAT CTI ( Compagnie Transnationale d'Investissement),D/C
+567701,DAT MICROCRED COTE D'IVOIRE,D/C
+567702,DAT BANQUE D'ABIDJAN (BDA-CI),D/C
+567706, BDU_CI DAT  2017,D/C
+567800,DAT Caisse des Depots et Consignation,D/C
+568402,UBA REVENUS TITRES,D/C
+568562,UBA _RESERVES SEQUESTRE (DSRA),D/C
+568620,CECP Recette Bondoukou,D/C
+568900,Saisie Avis à tiers détenteurs ATD,D/C
+570000,Caisse du Siege Equateur,D/C
+580000,Virements de fonds,D/C
+580100,Virst-fonds siège-plateau,D/C
+580101,Virts-fonds siège-treichville,D/C
+580102,Virts-fonds siège-adjamé,D/C
+580103,Virts-fonds siège-yopougon,D/C
+580104,Virts-fonds siège-abobo,D/C
+580105,Virts-fonds siège- koumassi,D/C
+580106,Virements Siège-Cocody,D/C
+580107,Virements Siège-pest ext,D/C
+580126,Virts-fonds siège-Bingerville,D/C
+580200,Virts-fonds siège-bonoua,D/C
+580300,Virts-fonds siège- divo,D/C
+580400,Virts- abj-Bké (siege & Ag),D/C
+580401,Virts- Abidjan-Agence Odienne (siege & Ag),D/C
+580402,Virts- Abidjan-Agence Korhogo,D/C
+580403,Virts- Abidjan-Agence Yakro,D/C
+580501,Virts- Abidjan-Agence Daloa,D/C
+580502,Virts- Abidjan-Agence Gagnoa,D/C
+580506,Virts- Abidjan-Agence San pedro,D/C
+580601,Virts- Abidjan-Agence Abengourou,D/C
+580602,Virts- Abidjan-Agence Agboville,D/C
+580603,Virts- Abidjan-Agence Bondoukou,D/C
+580605,Virts- Abidjan-Agence Daoukro,D/C
+580620,Virts-Siège-agence Adzope,D/C
+592310,Dépréciations financières OPCVM,C
+596100,Provision pour dépreciation des comptes banque,C
+601100,Allocations prenatales,D
+601200,Allocations de maternite,D
+601300,Allocations Familiales,D
+601400,Frais medicaux,D
+601500,IJ de conge de maternite,D
+601700,Alloca au foyer du travailleur,D
+601800,Alloca prenatales Reg Agricole,D
+601900,Autres charges techniques,D
+602110,Indemn jour d'incapacite,D
+602130,Rentes aux assures,D
+602131,Fonds de majo des rentes,D
+602140,Rentes aux survivants,D
+602150,Rachat de Rentes,D
+60216,Frais d'analyse et soins medicaux,D
+602160,Soins medicaux AT,D
+602161,"Frais d'analyses, d'expertises de soins medicaux",D
+602162,Produits pharmaceutiques,D
+602164,Frais de reeducat° reclassement,D
+602165,Prothese fourniture fabricat°,D
+602170,Frais de transport,D
+602180,Frais funeraires,D
+602190,Autres charges techniques,D
+602210,Achat fournitures securite,D
+602220,Frais d'animation propagande,D
+602230,Exposition et Frais d'organisation,D
+602240,"Cours, conference et projection",D
+602250,Recompense aux travailleurs,D
+602260,Analyses et fournitures de laboratoire,D
+602270,Publication technique a l'usage des tiers,D
+602280,Depenses de secourisme,D
+602290,Autres charges techniques,D
+602310,,D
+603100,Pension de vieillesse,D
+603110,Retraite complementaire,D
+603120,Pension de solidarite,D
+603200,Allocation de vieillesse,D
+603300,Pension d'invalidité,D
+603400,Pension des survivants,D
+603500,Allocation aux survivants,D
+603600,RSTI pension retraite normale,D
+603900,Autres charges techniques,D
+604100,Frais medicaux Assurance Maternite,D
+604200,IJ Assurance Maternite,D
+605100,Prestations extra - légales,D
+605200,Secours servis par l'organisme,D
+605300,Produits Pharmaceutiques,D
+605400,Fournitures de laboratoire,D
+605640,Autres Subventions accordé,D
+605700,Depenses de demonstration dietetique et de prestations en nature,D
+605900,Autres charges techniques,D
+610000,Achat projets de immobilier,D
+610010,Fournitures medicales,D
+610020,Fournitures pharmaceutiques,D
+610100,Matieres premieres,D
+610223,Fournitures d'atelier et de laboratoire,D
+610225,Fournitures de bureau,D
+610226,Four ensemble electronique,D
+610228,Autres fournitures consommables,D
+611010,Var. stocks four.medicales,D
+611020,Var. stocks prod. pharmaceutiques,D
+611100,Var. stocks mat.premières,D
+611230,Var. stocks four.ateliers&labo,D
+611250,Var. stocks four.bureau,D
+611260,Var. stocks four.informatiques,D
+611280,Var. stocks autres consommables,D
+612110,Electricite,D
+612120,Gaz,D
+612130,Carburant et lubrifiant,D
+612140,Conbustibles et autres sources d'energie,D
+612170,Eau,D
+612300,Fournitures d'entretien et de petit equipement,D
+612500,"Linges, vetements de travail",D
+612600,Four securite des locaux,D
+612800,Autres fournitres non stockables ou non stockées,D
+612900,Autres petits matériels et mobiliers de bureau,D
+616100,Achat pour reception,D
+618210,Transport,D
+618220,Commission et courtage,D
+618230,"Assurance, transport",D
+618240,Droits de douane,D
+618250,Remuneration des transitaires,D
+618800,Autres fournitures,D
+621100,Frais voyage depla personnel,D
+621200,Frais voyage depla Administrateurs,D
+621300,Frais voyage depla d'autres pers,D
+622100,Frais de taxi du personnel,D
+626100,Frais demenagement Agents,D
+626200,Frais demenagement biens mob,D
+630100,Reception,D
+630110,,D
+630200,,D
+630210,Indem mission du personnel,D
+630220,Indem mission des Administrateurs,D
+630280,Indem mission d'autres pers,D
+632310,Loyer,D
+632320,Charges locatives des immeubles,D
+632400,Loyers et charges locatives du matériel,D
+632401,Loyers et charges locatives du matériel,D
+632402,loyer et charges locatives du materiel de transport,D
+632500,Location de matériel,D
+632501,redevance-brevet-licence-logiciel,D
+632510,Location de matériel de transport,D
+633100,Entre/ repara immbles d'exploitat°,D
+633110,Entre/repa immbles rapport,D
+633120,Entre/repa immbles logts,D
+633140,Entre/repa logts sociaux,D
+633210,Entre/repa mat mobilier,D
+633220,Entre/repa mat informatique,D
+633230,Entre/repa mat transport,D
+633240,Entre/repa mat tech oeuvres sanitaires,D
+633250,Entre/repa mat oeuvres sociales,D
+633260,Entre/ repara mat et mob locaux d'habitation,D
+633290,Entre/repa d'autres mat mob,D
+634200,Remun. pers. prêté à CNPS,D
+634400,Honoraires Base imposable,D
+634401,Honoraires Non imposable,D
+634500,Frais d'acte et de contentieux,D
+634700,Remuneration des stagiaires,D
+634800,Autres remunerations,D
+635100,Annonces et insertions,D
+635300,"Journaux, catalogues et autre documentation",D
+635400,Publications,D
+635700,Pourboires et dons courants,D
+635800,Autres depenses publicite,D
+636100,Affranchissement,D
+636200,Frais de mandatement,D
+636300,"phone, telegramme, telex fax",D
+636500,Taxes postales diverses,D
+636600,Redevance pour boite postale,D
+636700,Lignes specia informatiques,D
+636800,Autres frais postaux,D
+637100,Frais sur titres,D
+637110,frais (OPCVM) Organisme Placement Collectif en Valeurs Mobilière,D
+637800,Autres frais commis bancaires,D
+638110,Cotisations d'autres organismes,D
+638120,"Frais de congres, colloques, seminaires et conférences",D
+638220,Frais de gardiennage,D
+638230,Autres services rendus par les tiers,D
+638300,Etudes et recherches,D
+638400,Frais recrutement pers,D
+638600,Frais formation personnel,D
+638700,Frais de formation des administrateurs,D
+638800,Aures services exterieurs,D
+641100,Prime assurance / incendie,D
+641200,Prime assurance / vol,D
+641300,Prime assurance mat transport,D
+641400,Primes assurance responsabilité,D
+641510,Prime assurance / dirigeants,D
+641700,Prime assurance/maladie,D
+641800,Autres primes d'assurance,D
+642100,Jetons de presence,D
+642200,Indemnités de Présidence,D
+643100,Appui au Ministère de Tutelle,D
+643101,Subventions exceptionnelles,D
+644000,Autres chares et pertes diverses,D
+644800,Appui au Ministère de Tutelle,D
+644810,Subventions exceptionnelles,D
+651100,Salaires de base,D
+651110,Heures supplementaires,D
+651120,Prime d'ancienneté,D
+651130,Prime d'assiduite,D
+651150,Prime controle et intéressement,D
+651151,Prime interessement,D
+651160,Prime de caisse,D
+651161,Prime de fonction,D
+651162,Prime fixe divers,D
+651163,Prime de panier,D
+651164,Prime de salissure,D
+651170,Gratification de fin d'exercice ou 13e mois,D
+651180,Conges payes,D
+651181,Dotations pour conges payes,D
+651190,Autres primes et gratifications,D
+651191,Primes décoration,D
+651210,Indemnités de sujetion,D
+651230,Indemnites de responsabilite,D
+651240,Indemnites d'interim,D
+651250,Indemnites de representation,D
+651260,Indemnites de logement,D
+651270,Indemnites de transport,D
+651280,Indemnité et frais de contrôle,D
+651810,Indem de preavis licenciement départ ret,D
+651870,"Indem, Eau, Electricité",D
+651871,"Indem, de tenue",D
+651875,Indemnités de frais d'entretien et réparations de véhicule,D
+651880,Autres indemnites,D
+651881,indemnités de stage non imposables,D
+651890,Pré retraite depart volontaire,D
+651900,Arrondis de paie,D
+655100,Cotisations presta familiales,D
+655105,Cots assurance maternite,D
+655200,Cotisations AT/MP,D
+655300,Cots assurance vieillesse,D
+655400,Cotisation Assurance maternité,D
+655601,Cotisations patronales CNAM,D
+657300,Frais medicaux du personnel,D
+657400,Verse au comite d'entreprise,D
+657500,Verse au comite d'hygiene et de sécurité,D
+657550,Verse au comite genre,D
+657600,Verse aux oeuvres sociales,D
+657700,Bourses d'etude,D
+657800,Primde de stage non imposable,D
+657801,participation de l'organisme aux frais de repas,D
+657900,Autres charges sociales,D
+661100,Impots sur salaires,D
+663100,"Impots, taxes sur salaires (autres organismes)",D
+665200,Taxes foncieres et autres impots,D
+665400,Droits timbres d'enregistrement,D
+665500,Droits de douane,D
+665800,Autres impots,D
+665810,IRVM actions,D
+665820,IRVM obligations,D
+665830,IRC prêts et creances,D
+665840,IRC DAT,D
+665841,IRC SUR COMPTE COURANT,D
+671100,IRVM actions,D
+671200,IRVM obligations,D
+671300,IRC prêts et creances,D
+671500,Interets bancaires,D
+671510,Intérêts des emprunts,D
+671520,Autres Intérêts des emprunt,D
+671700,IRC DAT,D
+676100,Pertes de change,D
+677100,Charges nettes sur cession,D
+677110,Perte nette (OPCVM) Organisme Placement Collectif en Valeurs Mobilière,D
+678100,Autres charges financieres,D
+681200,Penalites sur marches,D
+681300,CINQUANTENAIRE CNPS,D
+681310,"Pénalités, amendes fiscales et pénales",D
+681400,DONS & LIBERALITES,D
+681500,Creances devenues irrecouvrables,D
+681700,Rappel d'impots,D
+681800,Autres charges except° operat° gest°,D
+681900,Autres charges except° operat° gest° (ant 2000),D
+682100,Admision en non valeur,D
+682200,Remises sur creances,D
+682210,N/A,D
+682300,Annulation de creances,D
+682800,Autres charges except° operat° techniques,D
+685100,Valeurs comptables nettes des immobilisations incorporelles cédées,D
+685200,Valeurs comptables nettes des terrains cédés,D
+685300,Valeurs compta nettes des autres immos corporelles cédées,D
+685600,Valeurs comptables nettes des  immobilisations financières cédées,D
+685800,Valeurs comptables nettes d'autres éléments d'actif cédés,D
+688000,Autres charges exceptionnelles,D
+688100,Charges except° (ant oct 2000),D
+691110,Dotat° amort  immos incorp,D
+691111,Dotat° amort Logiciels,D
+691120,Dotat° amort charges d'exploitat°,D
+691121,Dotat° amort Frais d'etude générale,D
+691122,Dotat° amort frais d'étude et réforme,D
+691123,Dotat° aux amortissements,D
+691124,Dotat° aux provisions des prêts,D
+691125,Dotat° aux provisions sur titres,D
+691126,Dotat° aux provisions pour conges payes et gratifications,D
+691127,Dotat° amort immbles adminis,D
+691128,Dotat° amort immbles de rapport,D
+691129,Dotat°amort habitat social,D
+691130,Dotat° amort immbles des oeuvres,D
+691131,Dotat° aux amortissements logement du personnel,D
+691132,Dotat°amort mat informatique,D
+691133,Dotat°amorti mat garage,D
+691134,Dotat° amort mat transport,D
+691135,Dotat° aux amortissements du mobilier de logement,D
+691136,Dotat° aux amortissements du mobilier de logement,D
+691137,Dotat° amort mat bureau,D
+691138,Dotat° amort mat logement,D
+691139,Dotat° aux amortissements du materiel des centres sociaux,D
+691140,Dotat° amort mat tech non médical,D
+691141,Dotat° amort du mat tech médical,D
+691142,Dotat° aux amortissements du materiel de garage,D
+691143,"Dotat°aux amortissements du materiel, agencement, habitation",D
+691144,Dotat° aux amortissements du mobilier de logement Agence Comptable,D
+691145,Dotat° aux amortissements du materiel de transport Agence Comptable,D
+691146,Dotat° amort  mobiliers de bureaux,D
+691147,Dotat° aux amortissements du materiel de logement Agence Comptable,D
+691148,Dotat° aux amortissements du materiel de bureau Agence Comptable,D
+691149,Dotat° aux amortissements du materiel de logement Agence Comptable,D
+691150,"Dotat° aux amortissements de l'agencement, aménagement, installation Agence Comptable",D
+691151,"Dotat° amort agence, aména, instal générale",D
+691152,Dotat°s aux amortissements des reserves légales,D
+691153,Dotat° amort autres mat mobilier,D
+691500,Dotat° provis depart à la retraite,D
+691505,Dotat° provis Immo. inorporelles,D
+691510,Dotat° provis Immo. Corporelles,D
+691515,Dot provis sur terrains,D
+691520,Dotat° aux provis charges,D
+691521,Dotat° aux provis litiges/pers,D
+691522,Dotat° aux provis litiges/parts,D
+691530,Dotat° provis de l'actif circulant,D
+691535,Constitution de provisions creances contentieuses,D
+691540,Dotat° aux provisions pour risques,D
+691541,Dot prov risques techniques,D
+691550,Dotat° provis pour pension ret,D
+696100,Dotat° provis elts financiers,D
+697300,Dotat° aux provis reglementees,D
+697400,Dotat° aux provis réglementees des éléments d'actif,D
+697800,Dotat° aux autres provisions reglementées,D
+701100,Cot  des PF en cours,C
+701110,Cot  des PF anterieur,C
+701200,Cot des AT/MP en cours,C
+701210,Cot  des AT/MP anterieur,C
+701300,Cot  de la Retraite,C
+701310,Cot  de la Retraite ant,C
+701400,Cot  de l'Assur Maternité,C
+701410,Cot  de l'Assur Maternite exercice anterieur,C
+701700,Cotisations pour la Retraite RSTI,C
+701800,"Cotisations RSTI pour la Maternité, les Accidents et les maladies",C
+702100,Major et Penal  sur PF,C
+702110,Major- Penal / PF exercice antérieur,C
+702200,Major -Penal / AT/MP,C
+702210,Major -Penal / AT/MP exercice antérieur,C
+702300,Major -Penal /Retraite,C
+702310,Major -Penal /Retraite exercice antérieur,C
+702400,Major -Penal /Assur Maternité,C
+702410,Major -Penal /Assur Maternité exe antérieur,C
+703100,Rachat de Cotisations,C
+704200,RSTI Cot. Accident Maternité & Maladie  Exe. en cours,C
+704201,RSTI Cot. Accident Maternité & Maladie  Exe. antérieur,C
+704210,RSTI Cot. Accident Maternité & Maladie  Exe. antérieur,C
+704211,RSTI  Majoration retard Accident & Maladie Encours,C
+704212,RSTI  Majoration retard Accident & Maladie Exe. antérieur,C
+704300,RSTI Cot. Retraite Exercice en cours,C
+704310,RSTI Cot. Retraite Exe. antérieur,C
+704311,RSTI  Majoration Retard Retraite Exe. Encours,C
+704312,RSTI  Majoration Retard Retraite Exe. Antérieur,C
+704313,RSTI Rachat de Cotisations,C
+704400,RCTI Cot. Retraite Exe. Encours,C
+704401,RCTI Cot. Retraite Exercice Antérieur,C
+704410,RCTI Rachat de Cotisations,C
+706100,Participations des usagers des ecoles maternelles,C
+706580,Participations des usagers des formations sanitaires,C
+708100,Autres produits techniques,C
+711100,Ventes projets immobilier,C
+716100,Part° aux ecoles maternelles,C
+716110,Part° aux ecoles mater. antérieurs,C
+716510,Prix des actes,C
+716520,Rééduct°&Comsutlt.CAPP YOP,C
+716530,Vente de prothèses CAPP YOP,C
+716550,Vente de produit pharmaceutiques,C
+716580,Recettes /format° Sanitaires,C
+718200,Revenus des activités du CIFOCSS,C
+718201,Revenus  CIFOCSS FRAIS DE SEMINAIRE,C
+718300,Revenus immbles  loca diverses,C
+718310,Revenus des loyers  antérieur,C
+718500,Major penal  sur loyer,C
+718510,Major penal sur loyer exe antérieur,C
+718800,Autres prod° d'activites annexes,C
+718810,Locations véhicules,C
+723300,Var stock projets immo encours,C
+723500,VAR DE PRODUCT° STOCKEE,C
+723510,Variation de stock de constructions,C
+748000,TRANSFERT DE CHARGES EXEPTIONNLLES,C
+751000,Recuperation des PF indues,C
+751100,Reprise charge à payer PF,C
+752000,Recuperation des AT/MP indues,C
+752200,Reprise charge à payer AT,C
+753000,Recuperation des retraite indue,C
+753300,Recup.charge à payer RET,C
+754000,Recuperation des IJ assurance maternite indues,C
+755000,Recuperation des prestations des prestations de l'action sanitaire et sociale indues,C
+756000,Reversement des provisions sur engagement non utilisées,C
+757000,Remboursement IJ/AT à soi-même,C
+761000,Participation reçue,C
+761010,Participation accordee,C
+769518,Reprise provi sur Congés payés,C
+771000,Reve /titres de participat°,C
+772000,Reve/titres de placement,C
+772100,Revenus prêt Etat,C
+773000,Reve prets autres creances,C
+775000,Gain de change,C
+776000,Produits cession de valeur mobilières de placement,C
+776100,Produits nets (OPCVM) Organisme Placement Collectif en Valeurs Mobilière,C
+777000,Interets des DAT,C
+777010,Interets des cptes courants,C
+778000,Autres produits financiers,C
+781100,"Dédits,pénalité sur achats et ventes",C
+781200,Trans charges d'expliotation,C
+781201,Trans charges expliotation,C
+781300,Trans charges Financière,C
+781400,Rentrée sur creances amorties,C
+781500,CINQUANTENAIRE CNPS,C
+781600,"Dommages et interets, interets de droit",C
+781610,"Autres produits, débours AT",C
+781700,Degrevement d'impot,C
+781800,Autres produits exceptionnels sur opérations de gestion,C
+781810,"Autres produits, Appels d'offres",C
+781820,"Autres produits, plans de formation FDFP",C
+781830,"Autres produits, cession du matériel mis en Leasing",C
+781900,Produits except° (oct 200),C
+785000,Produits de cession d'immobilisations incorporelles,C
+785100,Produits de cession deTerrains,C
+785200,Produits de cession d'autres immos  corporelles,C
+785201,Produits de cession ensemble immobiliers EVE,C
+785600,Produits de cession d'immobilisations financières,C
+785800,Produits de cession d'autres elements d'actif,C
+791110,Reprise/amort des charges,C
+791120,Reprise/amort charges à répartir sur plusieurs excercices,C
+791130,Reprise/amort des Immo.Corporelles,C
+791210,Reprise/provis immos corpo- incorpo,C
+791220,Reprise sur provision pour depreciation de l'actif circulant,C
+791226,Reprise sur provision pour congés payés,C
+791230,Reprise sur provision pour risque de reclamation des prestations,C
+791250,Reprise sur provision pour perte et charge d'exploitation,C
+791550,Reprise sur provision pour pension retraite,C
+796500,Reprise/provis pour retraite pers,C
+796510,Reprise/provis Elts financiers,C
+796521,Rep/provis litiges,C
+796600,Rep/provis immos finan /v.m,C
+797500,Reprise sur provision pour risques et charges exceptionnels,C
+797510,Reprise prov Risque réclam pension,C
+797600,Reprise sur provision pour depreciation exceptionnelle,C
