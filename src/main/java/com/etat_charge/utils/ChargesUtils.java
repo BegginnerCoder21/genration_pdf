@@ -1,12 +1,12 @@
 package com.etat_charge.utils;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class ChargesUtils {
 
     public static Map<String, String> genrateCharge(){
-        Map<String, String> charges = new HashMap<>();
+        Map<String, String> charges = new LinkedHashMap<>();
 
         charges.put("601", "Allocations Familiales, prénatales, de maternité et au foyer du travailleur");
         charges.put("602", "Rentes aux assurés et autres charges des AT/MP");
@@ -40,7 +40,6 @@ public class ChargesUtils {
         charges.put("6654", "Impôts divers");
         charges.put("6911", "Dotations aux amortissements");
         charges.put("6915", "Dotation aux provisions");
-
         return charges;
     }
 
