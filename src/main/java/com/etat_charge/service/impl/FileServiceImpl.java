@@ -3,6 +3,7 @@ package com.etat_charge.service.impl;
 import com.etat_charge.entity.GeneralBalance;
 import com.etat_charge.repository.GeneralBalanceRepository;
 import com.etat_charge.service.FileService;
+import com.etat_charge.utils.ChargesUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -14,11 +15,11 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import static com.fasterxml.jackson.core.internal.shaded.fdp.v2_18_2.JavaBigDecimalParser.parseBigDecimal;
 
 @Slf4j
 @Service
@@ -95,19 +96,20 @@ public class FileServiceImpl implements FileService {
             Cell cell = cellIterator.next();
             var cellValue = getCellValueAsString(cell);
 
+
             try {
                 switch (cellIndex) {
                     case 0 -> {
                         double numericValue = Double.parseDouble(cellValue);
-                        generalBalance.setCompte((int) numericValue);
+                        generalBalance.setAccount((int) numericValue);
                     }
                     case 1 -> generalBalance.setDescription(cellValue);
-                    case 2 -> generalBalance.setOpeningBalance(parseBigDecimal(cellValue));
-                    case 3 -> generalBalance.setDebit(parseBigDecimal(cellValue));
-                    case 4 -> generalBalance.setCredit(parseBigDecimal(cellValue));
-                    case 5 -> generalBalance.setPeriodBalance(parseBigDecimal(cellValue));
-                    case 6 -> generalBalance.setEndDebitBalance(parseBigDecimal(cellValue));
-                    case 7 -> generalBalance.setEndCreditBalance(parseBigDecimal(cellValue));
+                    case 2 -> generalBalance.setOpeningBalance(ChargesUtils.convertStringAsBigInteger(cellValue));
+                    case 3 -> generalBalance.setDebit(ChargesUtils.convertStringAsBigInteger(cellValue));
+                    case 4 -> generalBalance.setCredit(ChargesUtils.convertStringAsBigInteger(cellValue));
+                    case 5 -> generalBalance.setPeriodBalance(ChargesUtils.convertStringAsBigInteger(cellValue));
+                    case 6 -> generalBalance.setEndDebitBalance(ChargesUtils.convertStringAsBigInteger(cellValue));
+                    case 7 -> generalBalance.setEndCreditBalance(ChargesUtils.convertStringAsBigInteger(cellValue));
                     default -> log.warn("Index de cellule inattendu : {}", cellIndex);
                 }
             } catch (NumberFormatException ex) {

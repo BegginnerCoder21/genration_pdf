@@ -1,9 +1,15 @@
 package com.etat_charge.utils;
 
+import java.math.BigInteger;
+import java.text.NumberFormat;
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class ChargesUtils {
+
+    private ChargesUtils() {
+    }
 
     public static Map<String, String> genrateCharge(){
         Map<String, String> charges = new LinkedHashMap<>();
@@ -41,6 +47,20 @@ public class ChargesUtils {
         charges.put("6911", "Dotations aux amortissements");
         charges.put("6915", "Dotation aux provisions");
         return charges;
+    }
+
+    public static BigInteger convertStringAsBigInteger(String cellValue)
+    {
+        return BigInteger.valueOf((long) Double.parseDouble(cellValue));
+    }
+
+    public static String formatetedNumber(BigInteger number)
+    {
+        NumberFormat numberFormat = NumberFormat.getInstance(Locale.US);
+
+        // Appliquer le formatage afin de mettre des virgules a chaque millier
+        return numberFormat.format(number);
+
     }
 
 }

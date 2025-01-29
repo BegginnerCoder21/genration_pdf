@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface GeneralBalanceRepository extends JpaRepository<GeneralBalance, Integer> {
 
-    @Query("SELECT b FROM GeneralBalance b WHERE CAST(b.compte AS string) LIKE '6%'")
-    List<GeneralBalance> findByCompteStartingWithSix();
+    @Query("SELECT b FROM GeneralBalance b WHERE CAST(b.account AS string) LIKE '6%'")
+    List<GeneralBalance> findByAccountStartingWithSix();
 }
