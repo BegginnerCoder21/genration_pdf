@@ -16,9 +16,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.math.BigInteger;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
-import java.util.Map;
 
 
 @Slf4j
@@ -35,6 +34,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
     public List<CalculBalanceDto> calculBalanceForN() throws DocumentException, FileNotFoundException {
         Map<String, String> charges = ChargesUtils.genrateCharge();
         List<CalculBalanceDto> calculBalanceDtoList = new ArrayList<>();
+        Map<Integer, BigInteger> totalDebit = ChargesUtils.totalDebit();
         for (Map.Entry<String, String> contentCharge : charges.entrySet()) {
 
             CalculBalanceDto calculBalanceDto = this.calcul(contentCharge);
@@ -42,13 +42,49 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
 
         }
 
-        this.generateAccountBalancePdf(calculBalanceDtoList);
+
+        for (CalculBalanceDto debit : calculBalanceDtoList)
+        {
+            if(ChargesUtils.firstCharges.contains(debit.getAccountNumber()))
+            {
+                totalDebit.put(1, totalDebit.get(1).add(debit.getSumDebitBalance()));
+                log.info("index: {} DebitBalanceFin: {}", 1, totalDebit.get(1));
+            }
+
+            if (ChargesUtils.secondCharges.contains(debit.getAccountNumber()))
+            {
+                totalDebit.put(2, totalDebit.get(2).add(debit.getSumDebitBalance()));
+                log.info("index: {} DebitBalanceFin: {}", 2, totalDebit.get(2));
+            }
+
+            if (ChargesUtils.thirdCharges.contains(debit.getAccountNumber()))
+            {
+                totalDebit.put(3,totalDebit.get(3).add(debit.getSumDebitBalance()));
+                log.info("index: {} DebitBalanceFin: {}", 3, totalDebit.get(3));
+            }
+
+            if (ChargesUtils.fourCharges.contains(debit.getAccountNumber()))
+            {
+                totalDebit.put(4, totalDebit.get(4).add(debit.getSumDebitBalance()));
+                log.info("index: {} DebitBalanceFin: {}", 4, totalDebit.get(4));
+            }
+
+            if (ChargesUtils.fiveCharges.contains(debit.getAccountNumber()))
+            {
+                totalDebit.put(5, totalDebit.get(5).add(debit.getSumDebitBalance()));
+                log.info("index: {} DebitBalanceFin: {}", 5, totalDebit.get(5));
+            }
+
+        }
+
+        this.generateAccountBalancePdf(calculBalanceDtoList, totalDebit);
 
         return calculBalanceDtoList;
     }
 
     public CalculBalanceDto calcul(Map.Entry<String, String> contentCharge)
     {
+        List<String> indexTotalDebit = Arrays.asList("1", "2", "3", "4", "5");
         List<GeneralBalance> generalsStartingWithSixBalances = this.generalBalanceRepository.findByAccountStartingWithSix();
         log.info("Code: {} libelle: {} ",contentCharge.getKey(), contentCharge.getValue());
         BigInteger sumBalance = BigInteger.ZERO;
@@ -57,7 +93,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
             String stringCompte = String.valueOf(generalBalance.getAccount());
 
             int lengthCode = contentCharge.getKey().length();
-            if(contentCharge.getKey().equals(stringCompte.substring(0,lengthCode)))
+            if(!indexTotalDebit.contains(contentCharge.getKey()) && contentCharge.getKey().equals(stringCompte.substring(0,lengthCode)))
             {
                 sumBalance = sumBalance.add(generalBalance.getEndDebitBalance());
 
@@ -73,8 +109,10 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
                 .build();
     }
 
-    public void generateAccountBalancePdf(List<CalculBalanceDto> calculBalanceDtoList) throws FileNotFoundException, DocumentException {
-        Rectangle pageSize = PageSize.A4; // Taille de la page
+    public void generateAccountBalancePdf(List<CalculBalanceDto> calculBalanceDtoList,Map<Integer, BigInteger> totalDebit ) throws FileNotFoundException, DocumentException {
+
+
+        Rectangle pageSize = PageSize.A4;
         Document document = new Document(pageSize, 36, 36, 36, 36); // Marges
         OutputStream outputStream = new FileOutputStream(FILE);
         PdfWriter.getInstance(document, outputStream);
@@ -83,7 +121,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         // Section: Rectangle contenant "COMPTE DE RESULTAT"
         PdfPTable titleTable = new PdfPTable(2);
         titleTable.setWidthPercentage(100);
-        titleTable.setWidths(new float[]{7, 1}); // Largeur pour les colonnes
+        titleTable.setWidths(new float[]{7, 1});
 
         PdfPCell subtitleCell = new PdfPCell(new Phrase("COMPTE DE RESULTAT SYSTEME NORMAL", new Font(Font.FontFamily.HELVETICA, 10, Font.BOLD)));
         subtitleCell.setHorizontalAlignment(Element.ALIGN_CENTER);
@@ -103,8 +141,8 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         titleCell.setHorizontalAlignment(Element.ALIGN_CENTER);
         titleCell.setVerticalAlignment(Element.ALIGN_MIDDLE);
         titleCell.setBorder(Rectangle.NO_BORDER);
-        titleCell.setColspan(2); // Prendre toute la largeur
-        titleCell.setPadding(10f);
+        titleCell.setColspan(2);
+        titleCell.setPadding(9f);
         titleTable.addCell(titleCell);
 
         // Ajouter le tableau des titres au document
@@ -150,6 +188,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         addTableHeader(accountTable, "Variation %");
 
         // Contenu
+        int index = 1;
         BaseColor backgroundColor = new BaseColor(255, 228, 206);
         addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,backgroundColor);
         addCellToTable(accountTable, "ACTIVITES D'EXPLOITATION", Element.ALIGN_LEFT, true, Rectangle.BOX,backgroundColor);
@@ -157,11 +196,24 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundColor);
         addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundColor);
         for (CalculBalanceDto dto : calculBalanceDtoList) {
+            if(dto.getAccountNumber().equals(String.valueOf(index)))
+            {
+
+                BaseColor backgroundOrange = new BaseColor(238, 172, 129);
+                addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, dto.getDescription(), Element.ALIGN_LEFT, true, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, ChargesUtils.formatetedNumber(totalDebit.get(index)), Element.ALIGN_RIGHT, true, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
+                index += 1;
+                continue;
+            }
             addCellToTable(accountTable, dto.getAccountNumber(), Element.ALIGN_CENTER, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, dto.getDescription(), Element.ALIGN_LEFT, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, ChargesUtils.formatetedNumber(dto.getSumDebitBalance()), Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.WHITE);
+
         }
 
         document.add(accountTable);
@@ -171,7 +223,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
 
     // Méthode pour ajouter des entêtes au tableau
     private void addTableHeader(PdfPTable table, String headerTitle) {
-        BaseColor tableHeaderColor = new BaseColor(255, 217, 102); // Couleur jaune orangé clair
+        BaseColor tableHeaderColor = new BaseColor(255, 217, 102);
         PdfPCell header = new PdfPCell(new Phrase(headerTitle, new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD, BaseColor.BLACK)));
         header.setBackgroundColor(tableHeaderColor);
         header.setHorizontalAlignment(Element.ALIGN_CENTER);
@@ -185,7 +237,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
     private void addCellToTableWithUnderline(PdfPTable table, String content, int alignment, boolean bold, int borderStyle) {
         Font font = bold ? new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD) : new Font(Font.FontFamily.HELVETICA, 8);
         Chunk chunk = new Chunk(content, font);
-        chunk.setUnderline(0.1f, -2f); // Soulignage
+        chunk.setUnderline(0.1f, -2f);
         PdfPCell cell = new PdfPCell(new Phrase(chunk));
         cell.setBorder(borderStyle);
         cell.setHorizontalAlignment(alignment);
@@ -202,7 +254,7 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         cell.setBackgroundColor(backgroundColor);
         cell.setHorizontalAlignment(alignment);
         cell.setVerticalAlignment(Element.ALIGN_MIDDLE);
-        cell.setPadding(5f);
+        cell.setPadding(4f);
         table.addCell(cell);
     }
 
