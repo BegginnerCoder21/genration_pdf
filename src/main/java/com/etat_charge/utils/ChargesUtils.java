@@ -1,9 +1,13 @@
 package com.etat_charge.utils;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.math.BigInteger;
 import java.text.NumberFormat;
 import java.util.*;
+import java.util.function.BiConsumer;
 
+@Slf4j
 public class ChargesUtils {
 
     private ChargesUtils() {
@@ -85,6 +89,19 @@ public class ChargesUtils {
         // Appliquer le formatage afin de mettre des virgules a chaque millier
         return numberFormat.format(number);
 
+    }
+
+    public static BigInteger sumAllEndDebitBalance(Map<Integer, BigInteger> totalDebit)
+    {
+        BigInteger sumValue = BigInteger.ZERO;
+
+        for (BigInteger value: totalDebit.values())
+        {
+            log.info("chaque value: {}", value);
+            sumValue = sumValue.add(value);
+        }
+        log.info("sum value: {}", sumValue);
+        return sumValue;
     }
 
 }

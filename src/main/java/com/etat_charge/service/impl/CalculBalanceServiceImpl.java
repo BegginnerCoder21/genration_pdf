@@ -188,6 +188,12 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         addTableHeader(accountTable, "Variation %");
 
         // Contenu
+        List<String> marges = Arrays.asList("1","2","4");
+        Integer lastIndex = 0;
+        Map<Integer, String> margesDescrition = new LinkedHashMap();
+        margesDescrition.put(1, "( Marge Technique Brute )");
+        margesDescrition.put(2, "( Marge brute sur matières )");
+        margesDescrition.put(4, "( Excédent brut d'exploitation )");
         int index = 1;
         BaseColor backgroundColor = new BaseColor(255, 228, 206);
         addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,backgroundColor);
@@ -195,19 +201,41 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
         addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundColor);
         addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundColor);
         addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundColor);
+        log.info("last index : {}", calculBalanceDtoList.size());
         for (CalculBalanceDto dto : calculBalanceDtoList) {
+            lastIndex += 1;
+            BaseColor backgroundOrange = new BaseColor(238, 172, 129);
             if(dto.getAccountNumber().equals(String.valueOf(index)))
             {
 
-                BaseColor backgroundOrange = new BaseColor(238, 172, 129);
                 addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,backgroundOrange);
                 addCellToTable(accountTable, dto.getDescription(), Element.ALIGN_LEFT, true, Rectangle.BOX,backgroundOrange);
                 addCellToTable(accountTable, ChargesUtils.formatetedNumber(totalDebit.get(index)), Element.ALIGN_RIGHT, true, Rectangle.BOX,backgroundOrange);
                 addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
                 addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
+                if (marges.contains(dto.getAccountNumber())){
+                    lastIndex -= 1;
+                    String spaces = String.format("%" + 20 + "s", "");
+                    addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,BaseColor.YELLOW);
+                    addCellToTable(accountTable, margesDescrition.get(index) + spaces + " - " + spaces + " - ", Element.ALIGN_LEFT, true, Rectangle.BOX,BaseColor.YELLOW);
+                    addCellToTable(accountTable, "", Element.ALIGN_RIGHT, true, Rectangle.BOX,BaseColor.YELLOW);
+                    addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.YELLOW);
+                    addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.YELLOW);
+                }
                 index += 1;
                 continue;
             }
+            /**
+            log.info("index last : {}", lastIndex);
+            if(lastIndex.equals(calculBalanceDtoList.size()))
+            {
+                addCellToTable(accountTable, "", Element.ALIGN_CENTER, false, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, "Total des charges d'exploitations", Element.ALIGN_LEFT, true, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, ChargesUtils.formatetedNumber(ChargesUtils.sumAllEndDebitBalance(totalDebit)), Element.ALIGN_RIGHT, true, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
+                addCellToTable(accountTable, "", Element.ALIGN_RIGHT, false, Rectangle.BOX,backgroundOrange);
+            }
+             */
             addCellToTable(accountTable, dto.getAccountNumber(), Element.ALIGN_CENTER, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, dto.getDescription(), Element.ALIGN_LEFT, false, Rectangle.BOX,BaseColor.WHITE);
             addCellToTable(accountTable, ChargesUtils.formatetedNumber(dto.getSumDebitBalance()), Element.ALIGN_RIGHT, false, Rectangle.BOX,BaseColor.WHITE);
@@ -224,11 +252,11 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
     // Méthode pour ajouter des entêtes au tableau
     private void addTableHeader(PdfPTable table, String headerTitle) {
         BaseColor tableHeaderColor = new BaseColor(255, 217, 102);
-        PdfPCell header = new PdfPCell(new Phrase(headerTitle, new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD, BaseColor.BLACK)));
+        PdfPCell header = new PdfPCell(new Phrase(headerTitle, new Font(Font.FontFamily.HELVETICA, 7, Font.BOLD, BaseColor.BLACK)));
         header.setBackgroundColor(tableHeaderColor);
         header.setHorizontalAlignment(Element.ALIGN_CENTER);
         header.setVerticalAlignment(Element.ALIGN_MIDDLE);
-        header.setPadding(8f);
+        header.setPadding(6f);
         header.setBorder(Rectangle.BOX);
         table.addCell(header);
     }
@@ -248,13 +276,13 @@ public class CalculBalanceServiceImpl implements CalculBalanceService {
 
     // Méthode pour ajouter des cellules au tableau
     private void addCellToTable(PdfPTable table, String content, int alignment, boolean bold, int borderStyle, BaseColor backgroundColor) {
-        Font font = bold ? new Font(Font.FontFamily.HELVETICA, 8, Font.BOLD) : new Font(Font.FontFamily.HELVETICA, 8);
+        Font font = bold ? new Font(Font.FontFamily.HELVETICA, 7, Font.BOLD) : new Font(Font.FontFamily.HELVETICA, 8);
         PdfPCell cell = new PdfPCell(new Phrase(content, font));
         cell.setBorder(borderStyle);
         cell.setBackgroundColor(backgroundColor);
         cell.setHorizontalAlignment(alignment);
         cell.setVerticalAlignment(Element.ALIGN_MIDDLE);
-        cell.setPadding(4f);
+        cell.setPadding(3f);
         table.addCell(cell);
     }
 
